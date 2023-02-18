@@ -45,7 +45,16 @@
 
 .agenda__item {
 flex-grow: 1;
-max-width: 400px;
+}
+
+.rodape {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.rodape__logo {
+ align-self: end;
 }
 
 @media (min-width: 720px) {
@@ -59,9 +68,6 @@ max-width: 400px;
       row-gap: 1rem;
     }
 
-    .eventos__lista {
-      justify-content: end;
-    }
 }
 
 @media (min-width: 1440px) {
@@ -85,4 +91,6 @@ max-width: 400px;
  .menu__item:nth-child(5) {
     order:2;
  }
+
+
 }
